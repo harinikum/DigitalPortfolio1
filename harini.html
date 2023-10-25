@@ -1,0 +1,179 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="harini.css">
+</head>
+<body>
+    <div class="logo">
+        <nav>
+            <img src="harini1.png" width="150px" height="100px" alt=""></img>
+        <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">SKILLS</a></li>
+            <li><a href="#">CONTACT</a></li>
+        </ul>
+        </nav>
+        <div class="detail">
+            <h4>Hello,I'm</h4>
+            <h1>Harini Kumar</h1>
+            <h4>Front-end Developer</h4><br>
+            <p>This is my offical portfolio to see all<br>
+               my details and skills.<br>
+            </p><br>
+            <a href="#">DOWNLOAD CV</a>
+        </div>
+        <div class="image">
+            <img src="projectimage3.jpg" class="projectimage3">
+            <img src="girlproject.png" class="girlproject">
+        </div>
+        <div class="cover">
+        <div class="box">
+            <img src="skillimage1.jpg" class="skillimage1">
+            <h2>ABOUT ME</h2>
+            <br>
+            <p>I'm a third-year student at the University<br>
+            of Bharathidasan studying Computer Application.
+        <br> Beginner Front-end Developer</p>
+        </div>
+        <div class="box1">
+            <img src="aboutimage1.jpg" class="aboutimage1">
+            <h2>MY SKILLS</h2>
+            <br>
+            Java<br>
+            HTML<br>
+            CSS<br>
+            SQL<br>
+            JavaScript<br>
+        </div>
+        <div class="box2">
+            <img src="images.jpeg" width="245px" height="210px" class="images">
+            <br>
+            <h2>CONTACT</h2>
+            <br>
+            <p>Name     : Harini Kumar</p><br>
+            <p>email    : xyz@gmail.com</p><br>
+            <p>Mobile No: 1234568901</p><br>
+        </div>
+    </div>
+    </div>
+</body>
+</html>
+<style>
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.logo{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: white;
+}
+nav{
+    display: flex;
+    width: 86%;
+    margin: auto;
+    align-items: center;
+    padding: 0 20px;
+    justify-content: space-between;
+}
+nav ul li{
+    display: inline;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color:black;
+}
+nav ul li a:hover{
+    color:rgb(216, 112, 161);
+}
+.detail{
+    margin-left: 9%;
+    margin-top: 10%;
+}
+.detail h1{
+    font-size: 50px;
+    color:#212121;
+    margin-bottom: 20px;
+}
+.detail p{
+    color: #555;
+    line-height: 22px;
+}
+.detail a{
+    background: #212121;
+    padding: 10px 16px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #efff;
+    display: inline-block;
+    margin: 20px 0;
+    border-radius: 4px;
+}
+.image{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+.image img{
+    height: 100%;
+    position: absolute;
+    left: 55%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cover{
+    width: 950px;
+    height: 455px;
+    background: white;
+    margin-top: 40px;
+    margin-left: 8%;
+    display: flex;
+}
+.box{
+    margin: 9px;
+    width: 390px;
+    height: 360px;
+    box-shadow: -1px 0 9px lightcoral;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.box1{
+    margin: 9px;
+    width: 390px;
+    height: 360px;
+    box-shadow: -1px 0 9px lightcoral;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.box2{
+    margin: 9px;
+    width: 390px;
+    height: 360px;
+    box-shadow: -1px 0 9px lightcoral;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top:9px;
+}
+.box2 h2{
+    margin-top:8px;
+}
+</style>
